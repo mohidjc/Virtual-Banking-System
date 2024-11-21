@@ -1,6 +1,8 @@
 # README for Azure Function - Order Processing and Stock Management
+## Event grid wont run locally, Will need to test this function app deployed on Azure
 
 ## Overview
+
 
 This project consists of two Azure Functions: 
 
