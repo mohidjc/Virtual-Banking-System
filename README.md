@@ -36,7 +36,7 @@ The `local.settings.json` file can be used to store local environment variables 
 
 ### Azure Resources
 
-1. **Azure SQL Database**: The database contains the `Products` table, which stores information about products, their stock levels, and thresholds for reordering.
+1. **Azure SQL Database**: The database contains the `Products` table, which stores information about products, their stock levels, thresholds for reordering and status of reorder. The database also has `ReplenishemntSchedules` table which holds all scheduled reorders for employees.
 2. **Azure Event Grid**: An Event Grid Topic is used to send stock change events to trigger the replenishment process.
 
 ## Function 1: Order Processing
